@@ -39,3 +39,37 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/src/generated/prisma
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Next.js
+.next/
+out/
+
+# Dependencies
+node_modules/
+
+# Local development / generated files
+.repair-backups/
+.agents/
+.claude/
+.windsurf/
+
+# Local app data
+data/
+
+# Backup copies
+app.backup-*/
+*.backup
+
+# Source backups / temporary copies
+*.save
+*.backup
+*.backup-*
+*.before-*
+src/lib/backups/
